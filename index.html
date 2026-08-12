@@ -1,15 +1,6 @@
 <!DOCTYPE html>
 <html lang="zh-Hant">
 <head>
-  <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-ZQZHTYTRMQ"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-ZQZHTYTRMQ');
-</script>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -23,7 +14,7 @@
 <meta property="og:type" content="article">
 <meta property="og:title" content="告白｜從日落到天光">
 <meta property="og:description" content="應橙《告白》十大名場面與經典台詞。天色會隨著你往下讀而改變。">
-<meta property="og:url" content="https://story.knittinghiyori.com/confession/">
+<meta property="og:url" content="https://happyfamilyintaiwan-bot.github.io/confession/">
 <!-- <meta property="og:image" content="這裡填圖片網址"> -->
 <meta property="og:locale" content="zh_TW">
 <meta name="twitter:card" content="summary_large_image">
@@ -81,6 +72,8 @@ header{height:100svh;display:flex;align-items:center;justify-content:center;posi
   letter-spacing:.06em;transition:border-color .3s,background .3s}
 .song:hover,.song:focus-visible{border-color:var(--daylight);background:rgba(247,220,166,.07)}
 .song em{font-family:var(--mono);font-style:normal;font-size:10px;color:var(--instrument);letter-spacing:.2em}
+.song+.song{margin-top:10px}
+.songnote{margin-top:18px;font-size:13.5px;color:var(--instrument);letter-spacing:.08em}
 
 /* 章節 */
 section.beat{padding:11vh 0;opacity:0;transform:translateY(26px);transition:opacity 1s,transform 1s}
@@ -93,6 +86,7 @@ section.beat.in{opacity:1;transform:none}
 .beat h3{font-family:var(--serif);font-weight:500;font-size:16px;letter-spacing:.12em;margin:38px 0 16px;color:var(--daylight)}
 blockquote{font-family:var(--serif);font-weight:600;font-size:clamp(24px,5.4vw,38px);line-height:1.62;
   letter-spacing:.05em;color:var(--daylight);margin:0 0 30px;padding-left:20px;border-left:2px solid var(--dawn)}
+blockquote.duet small{font-size:inherit;font-weight:inherit;color:inherit;letter-spacing:inherit;font-family:inherit;margin-top:.5em}
 blockquote small{display:block;font-size:.52em;font-weight:400;color:var(--instrument);letter-spacing:.14em;margin-top:14px;font-family:var(--sans)}
 .beat p{font-size:15.5px;color:#B9C6DA;margin-bottom:1.35em}
 .beat p strong{color:var(--paper);font-weight:600}
@@ -163,6 +157,19 @@ footer a{color:#3B2A18}
   .scroll-cue s{animation:none}
 }
 </style>
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-ZQZHTYTRMQ"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-ZQZHTYTRMQ', {
+    'page_title': '告白｜互動頁',
+    'cookie_domain': '.knittinghiyori.com'
+  });
+</script>
+
 </head>
 <body>
 
@@ -192,9 +199,13 @@ footer a{color:#3B2A18}
   <p>從一句「可以試試」，到「我的愛人，我的戰友」。中間隔了十年。</p>
   <p>這一頁的天色會隨著你往下讀而改變。從她第一次在圖書館抬起頭的那個黃昏，一直到他們並肩站在同一片天空底下的那個清晨。</p>
   <p>十個瞬間，一個夜晚。</p>
-  <a class="song" href="https://www.youtube.com/watch?v=Cpb2L5Qygv0" target="_blank" rel="noopener">
-    ▶　聽主題曲《天光》－漆柚 <em>YOUTUBE</em>
+  <a class="song" data-gt="song-tianguang" href="https://www.youtube.com/watch?v=Cpb2L5Qygv0" target="_blank" rel="noopener">
+    ▶　第一季主題曲《天光》－漆柚 <em>YOUTUBE</em>
   </a>
+  <a class="song" data-gt="song-gaobai-s2" href="https://www.youtube.com/watch?v=h3QAAoszzu0" target="_blank" rel="noopener">
+    ▶　第二季主題曲《告白》－葉恨水 &amp; 真蕊 <em>YOUTUBE</em>
+  </a>
+  <p class="songnote">一首獨唱，一首對唱。上半句與下半句。</p>
 </div>
 
 <section class="beat">
@@ -330,7 +341,7 @@ footer a{color:#3B2A18}
 <section class="beat">
   <div class="stamp"><em>05:24</em><u></u>天光　日出</div>
   <h2>十、你好，我的愛人，我的戰友</h2>
-  <blockquote>你好，醫療救護隊，許隨。<small>「你好，空中救援隊，周京澤。」</small></blockquote>
+  <blockquote class="duet">你好，醫療救護隊，許隨。<small>「你好，空中救援隊，周京澤。」</small></blockquote>
   <p>結局，他以飛行員身份加入空中救援隊，她則成為醫療救護隊的一員。兩個人站在彼此面前，伸出手，重新自我介紹了一次。</p>
   <p>這是全書唯一真正意義上的「告白」。它不是誰對誰說了什麼，而是<strong>兩個人終於站在同一片天空底下，做同一件事。</strong></p>
   <p>注意這場戲的形式：他們用的是職務身分，不是情人稱謂。這是《告白》給愛情下的定義——<strong>愛不是把兩個人綁在一起，是兩個人先各自把人生活好，在一起才能更好。</strong></p>
@@ -352,6 +363,10 @@ footer a{color:#3B2A18}
     <p>但緊接著的「永住太陽裡」，用一個轉身把結局重寫了：她不是消失了，她只是搬去了一個每天都會回來的地方。</p>
     <p>「西西」與「西日」的諧音是第一層；把逝者比作太陽是第二層；<strong>而第三層最狠——太陽每天都會升起。</strong>這意味著這不是永別，是一個「日日相見」的承諾。</p>
     <p>這也解釋了為什麼整本書都在寫光。光在這裡不只是希望，是一種安放所愛之人的方式。告別可以不只有眼淚。</p>
+    <h3 style="margin-top:34px">而作者留了一扇門</h3>
+    <p>小說的番外裡，寫了盛南洲與胡茜西的<strong>平行世界</strong>。在那裡，她沒有生病。</p>
+    <p>正文不改、悲劇不撤，但另外開一個空間，讓那對人有機會好好活一次。它不否認正文裡發生過的事，只是說：<strong>如果換一個世界，他們本來可以的。</strong></p>
+    <p>廣播劇裡也有這一段，但小說寫得更細。</p>
   </div>
 </div>
 
@@ -364,17 +379,17 @@ footer a{color:#3B2A18}
   <div class="buy">
     <b>把這個夜晚帶回家</b>
     <p>那些畫線的句子，還是紙本比較好收。<br>《告白》實體書，蝦皮可購。</p>
-    <a class="btn" href="https://s.shopee.tw/3qM37k0jhY" target="_blank" rel="sponsored nofollow noopener">前往蝦皮購買《告白》</a>
+    <a class="btn" data-gt="buy-shopee" href="https://s.shopee.tw/3qM37k0jhY" target="_blank" rel="sponsored nofollow noopener">前往蝦皮購買《告白》</a>
     <span class="disc">本連結為蝦皮聯盟行銷連結。<br>透過它下單，我會獲得少許回饋，你的售價不受影響。</span>
   </div>
 
   <div class="news">
     <b>這篇不是句號，是破折號</b>
     <p>《偷偷藏不住》和《難哄》的解析正在寫。<br>訂閱電子報，新的一篇上線時我寄給你。</p>
-    <a href="https://knittinghiyori.kit.com/2cf3d82ac1" target="_blank" rel="noopener">訂閱編織日和</a>
+    <a data-gt="newsletter" href="https://knittinghiyori.kit.com/2cf3d82ac1" target="_blank" rel="noopener">訂閱編織日和</a>
   </div>
 
-  <a class="back" href="https://knittinghiyori.com/confession-novel-quotes/">讀完整版　包含廣播劇資訊、影視化進度與劇透支線　→</a>
+  <a class="back" data-gt="back-to-article" href="https://knittinghiyori.com/confession-novel-quotes/">讀完整版　包含廣播劇資訊、影視化進度與劇透支線　→</a>
 
   <p class="credit">
     原著　應橙《告白》晉江文學城<br>
@@ -490,6 +505,47 @@ footer a{color:#3B2A18}
       veil.style.opacity='0.55';
       setTimeout(function(){veil.style.opacity='0';},1600);
     }
+  });
+})();
+</script>
+
+<script>
+/* ── GA4 自訂事件 ── */
+(function(){
+  if(typeof gtag !== 'function') return;
+
+  /* 連結點擊 */
+  document.addEventListener('click', function(e){
+    var a = e.target.closest('a[data-gt]');
+    if(!a) return;
+    gtag('event', 'cta_click', {
+      'cta_id': a.getAttribute('data-gt'),
+      'link_url': a.href
+    });
+  });
+
+  /* 閱讀深度：25 / 50 / 75 / 100 % 各回報一次 */
+  var hit = {};
+  var marks = [25,50,75,100];
+  var t = false;
+  function depth(){
+    t = false;
+    var max = document.body.scrollHeight - innerHeight;
+    if(max < 1) return;
+    var pct = Math.min(100, Math.round(scrollY / max * 100));
+    marks.forEach(function(m){
+      if(pct > m - 1 && !hit[m]){
+        hit[m] = 1;
+        gtag('event', 'scroll_depth', {'percent': m});
+      }
+    });
+  }
+  addEventListener('scroll', function(){ if(!t){ t = true; requestAnimationFrame(depth); } }, {passive:true});
+
+  /* 劇透區展開 */
+  var rb = document.getElementById('revealBtn');
+  if(rb) rb.addEventListener('click', function(){
+    gtag('event', 'spoiler_reveal', {'page': 'confession'});
   });
 })();
 </script>
